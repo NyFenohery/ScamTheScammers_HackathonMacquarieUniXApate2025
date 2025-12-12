@@ -1,0 +1,79 @@
+[
+  {
+    "persona_id": "R001",
+    "conversation_id": "conv_001",
+    "platform": "LinkedIn",
+    "start_time": "2024-12-08T10:23:00Z",
+    "end_time": "2024-12-08T10:51:00Z",
+    "messages": [
+      { "sender": "scammer", "text": "Hello! I came across your profile and I have an exciting job opportunity for you.", "time": "10:23", "flags": ["urgency"] },
+      { "sender": "victim", "text": "What kind of job?", "time": "10:25" },
+      { "sender": "scammer", "text": "Remote customer service position with $5000/month salary. Very easy work from home!", "time": "10:26", "flags": ["too-good-to-be-true", "urgency"] },
+      { "sender": "victim", "text": "That sounds interesting...", "time": "10:28" },
+      { "sender": "scammer", "text": "Great! To proceed, we need a small registration fee of $200 for background check.", "time": "10:29", "flags": ["money-request", "urgency"] }
+    ],
+    "classification": "Job Scam",
+    "outcome": "ongoing"
+  },
+  {
+    "persona_id": "L002",
+    "conversation_id": "conv_002",
+    "platform": "WhatsApp",
+    "start_time": "2024-12-09T01:15:00Z",
+    "messages": [
+      { "sender": "scammer", "text": "Hey love, I can't wait to meet you... ❤️", "time": "01:15" },
+      { "sender": "victim", "text": "Who are you?", "time": "01:17" },
+      { "sender": "scammer", "text": "I am your secret admirer ❤️ I've been watching you for a while", "time": "01:18" },
+      { "sender": "victim", "text": "This is weird...", "time": "01:20" },
+      { "sender": "scammer", "text": "Trust me baby, I just need help with something. Can you send me $500? I promise to pay back", "time": "01:22", "flags": ["money-request", "emotional-manipulation"] }
+    ],
+    "classification": "Romance Scam",
+    "outcome": "ongoing"
+  },
+  {
+    "persona_id": "I005",
+    "conversation_id": "conv_003",
+    "platform": "SMS",
+    "start_time": "2024-12-07T14:32:00Z",
+    "messages": [
+      { "sender": "scammer", "text": "URGENT: Your bank account has been suspended due to suspicious activity.", "time": "14:32", "flags": ["urgency", "fear-tactics"] },
+      { "sender": "victim", "text": "What? I didn't do anything!", "time": "14:35" },
+      { "sender": "scammer", "text": "Click this link immediately to verify your identity: http://fake-bank-verify.com", "time": "14:36", "flags": ["phishing-link"] },
+      { "sender": "victim", "text": "Is this real?", "time": "14:38" },
+      { "sender": "scammer", "text": "Yes, you have 2 hours before permanent suspension. Act now!", "time": "14:39", "flags": ["urgency", "time-pressure"] }
+    ],
+    "classification": "Phishing",
+    "outcome": "failed"
+  },
+  {
+    "persona_id": "S003",
+    "conversation_id": "conv_004",
+    "platform": "Facebook Marketplace",
+    "start_time": "2024-12-08T13:12:00Z",
+    "messages": [
+      { "sender": "scammer", "text": "Hey! Saw you were interested in the iPhone 15 Pro Max 💯", "time": "13:12" },
+      { "sender": "victim", "text": "Yeah, what's the price?", "time": "13:15" },
+      { "sender": "scammer", "text": "Only $400! Brand new sealed box. Limited stock!", "time": "13:16", "flags": ["too-good-to-be-true", "urgency"] },
+      { "sender": "victim", "text": "That's too cheap...", "time": "13:18" },
+      { "sender": "scammer", "text": "Trust me bro, need quick cash. Pay upfront and I'll ship today!", "time": "13:19", "flags": ["money-request", "upfront-payment"] }
+    ],
+    "classification": "Product Scam",
+    "outcome": "ongoing"
+  },
+  {
+    "persona_id": "C007",
+    "conversation_id": "conv_005",
+    "platform": "Telegram",
+    "start_time": "2024-12-09T17:45:00Z",
+    "messages": [
+      { "sender": "scammer", "text": "I've been making $10k/day with my exclusive crypto trading signals.", "time": "17:45", "flags": ["too-good-to-be-true"] },
+      { "sender": "victim", "text": "Really? How?", "time": "17:48" },
+      { "sender": "scammer", "text": "Join my VIP group. $500 entry fee but you'll make it back in one trade. Guaranteed returns.", "time": "17:50", "flags": ["money-request", "guaranteed-returns"] },
+      { "sender": "victim", "text": "Sounds too good to be true", "time": "17:52" },
+      { "sender": "scammer", "text": "Look at these screenshots of my profits! This is your chance for financial freedom.", "time": "17:54", "flags": ["fake-proof", "fomo"] }
+    ],
+    "classification": "Investment Scam",
+    "outcome": "ongoing"
+  }
+]
+

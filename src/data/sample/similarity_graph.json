@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    { "id": "R001", "label": "Recruiter Alpha", "group": "CREW_A" },
+    { "id": "L002", "label": "Romance Operator", "group": "CREW_B" },
+    { "id": "I005", "label": "Authority Impersonator", "group": "CREW_C" },
+    { "id": "C007", "label": "Crypto Influencer", "group": "CREW_A" },
+    { "id": "S003", "label": "Marketplace Seller", "group": "independent" }
+  ],
+  "edges": [
+    { "source": "R001", "target": "C007", "weight": 0.9, "type": "crew" },
+    { "source": "R001", "target": "S003", "weight": 0.4, "type": "platform" },
+    { "source": "L002", "target": "I005", "weight": 0.3, "type": "tactic" },
+    { "source": "C007", "target": "S003", "weight": 0.3, "type": "tactic" }
+  ]
+}
+

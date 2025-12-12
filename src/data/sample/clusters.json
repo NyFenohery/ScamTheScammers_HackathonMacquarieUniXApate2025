@@ -1,0 +1,43 @@
+[
+  {
+    "persona_id": "R001",
+    "name": "Recruiter Alpha",
+    "risk": 85,
+    "keywords": ["job", "salary", "opportunity", "hire", "urgent", "apply", "fee"],
+    "description": "Job scam operator targeting job seekers with fake remote positions",
+    "archetype": "Job Scam"
+  },
+  {
+    "persona_id": "L002",
+    "name": "Romance Operator",
+    "risk": 92,
+    "keywords": ["love", "money", "trust", "meet", "emergency", "family"],
+    "description": "Romance scammer using emotional manipulation to extract money",
+    "archetype": "Romance Scam"
+  },
+  {
+    "persona_id": "I005",
+    "name": "Authority Impersonator",
+    "risk": 88,
+    "keywords": ["verify", "account", "suspended", "urgent", "security", "legal"],
+    "description": "Phishing scammer impersonating official institutions",
+    "archetype": "Phishing / Impersonation"
+  },
+  {
+    "persona_id": "C007",
+    "name": "Crypto Influencer",
+    "risk": 90,
+    "keywords": ["crypto", "invest", "profit", "returns", "trading", "bitcoin", "signal"],
+    "description": "Investment scammer promoting fake crypto trading schemes",
+    "archetype": "Investment Scam"
+  },
+  {
+    "persona_id": "S003",
+    "name": "Marketplace Seller",
+    "risk": 75,
+    "keywords": ["buy", "price", "stock", "payment", "deal", "hurry"],
+    "description": "Product scammer selling fake or non-existent items",
+    "archetype": "Product Scam"
+  }
+]
+

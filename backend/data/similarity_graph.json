@@ -1,0 +1,837 @@
+{
+  "nodes": [
+    {
+      "id": "R001",
+      "label": "Clinical Broker",
+      "group": "CREW_A"
+    },
+    {
+      "id": "R002",
+      "label": "Sports Broker",
+      "group": "CREW_D"
+    },
+    {
+      "id": "L003",
+      "label": "Legal Operator",
+      "group": "CREW_C"
+    },
+    {
+      "id": "J004",
+      "label": "Water Agent",
+      "group": "CREW_B"
+    },
+    {
+      "id": "J005",
+      "label": "Health Handler",
+      "group": "CREW_A"
+    },
+    {
+      "id": "C006",
+      "label": "Dramatherapist Agent",
+      "group": "CREW_E"
+    },
+    {
+      "id": "C007",
+      "label": "Banker Agent",
+      "group": "CREW_E"
+    },
+    {
+      "id": "R008",
+      "label": "Engineer, Alpha",
+      "group": "CREW_C"
+    },
+    {
+      "id": "R009",
+      "label": "Television Agent",
+      "group": "CREW_B"
+    },
+    {
+      "id": "C010",
+      "label": "Therapist, Agent",
+      "group": "CREW_D"
+    },
+    {
+      "id": "R011",
+      "label": "Librarian, Alpha",
+      "group": "CREW_B"
+    },
+    {
+      "id": "J012",
+      "label": "Hydrogeologist Agent",
+      "group": "CREW_D"
+    },
+    {
+      "id": "J013",
+      "label": "Advertising Broker",
+      "group": "CREW_B"
+    },
+    {
+      "id": "J014",
+      "label": "Site Agent",
+      "group": "CREW_B"
+    },
+    {
+      "id": "C015",
+      "label": "Engineer, Handler",
+      "group": "CREW_D"
+    }
+  ],
+  "edges": [
+    {
+      "source": "R001",
+      "target": "J005",
+      "weight": 0.82,
+      "type": "crew"
+    },
+    {
+      "source": "R002",
+      "target": "C010",
+      "weight": 0.78,
+      "type": "crew"
+    },
+    {
+      "source": "R002",
+      "target": "J012",
+      "weight": 0.85,
+      "type": "crew"
+    },
+    {
+      "source": "R002",
+      "target": "C015",
+      "weight": 0.9,
+      "type": "crew"
+    },
+    {
+      "source": "C010",
+      "target": "J012",
+      "weight": 0.86,
+      "type": "crew"
+    },
+    {
+      "source": "C010",
+      "target": "C015",
+      "weight": 0.96,
+      "type": "crew"
+    },
+    {
+      "source": "J012",
+      "target": "C015",
+      "weight": 0.89,
+      "type": "crew"
+    },
+    {
+      "source": "L003",
+      "target": "R008",
+      "weight": 0.85,
+      "type": "crew"
+    },
+    {
+      "source": "J004",
+      "target": "R009",
+      "weight": 0.76,
+      "type": "crew"
+    },
+    {
+      "source": "J004",
+      "target": "R011",
+      "weight": 0.85,
+      "type": "crew"
+    },
+    {
+      "source": "J004",
+      "target": "J013",
+      "weight": 0.9,
+      "type": "crew"
+    },
+    {
+      "source": "J004",
+      "target": "J014",
+      "weight": 0.95,
+      "type": "crew"
+    },
+    {
+      "source": "R009",
+      "target": "R011",
+      "weight": 0.98,
+      "type": "crew"
+    },
+    {
+      "source": "R009",
+      "target": "J013",
+      "weight": 0.78,
+      "type": "crew"
+    },
+    {
+      "source": "R009",
+      "target": "J014",
+      "weight": 0.89,
+      "type": "crew"
+    },
+    {
+      "source": "R011",
+      "target": "J013",
+      "weight": 0.94,
+      "type": "crew"
+    },
+    {
+      "source": "R011",
+      "target": "J014",
+      "weight": 0.96,
+      "type": "crew"
+    },
+    {
+      "source": "J013",
+      "target": "J014",
+      "weight": 0.97,
+      "type": "crew"
+    },
+    {
+      "source": "C006",
+      "target": "C007",
+      "weight": 0.98,
+      "type": "crew"
+    },
+    {
+      "source": "R001",
+      "target": "R002",
+      "weight": 0.52,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "R002",
+      "weight": 0.16,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "L003",
+      "weight": 0.17,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "J004",
+      "weight": 0.52,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "J005",
+      "weight": 0.55,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "J005",
+      "weight": 0.36,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "C007",
+      "weight": 0.49,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "R008",
+      "weight": 0.55,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "R008",
+      "weight": 0.19,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "R009",
+      "weight": 0.31,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "C010",
+      "weight": 0.37,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "C010",
+      "weight": 0.14,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "R011",
+      "weight": 0.31,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "J012",
+      "weight": 0.39,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "J012",
+      "weight": 0.4,
+      "type": "tactic"
+    },
+    {
+      "source": "R001",
+      "target": "J013",
+      "weight": 0.43,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "J014",
+      "weight": 0.36,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "C015",
+      "weight": 0.38,
+      "type": "platform"
+    },
+    {
+      "source": "R001",
+      "target": "C015",
+      "weight": 0.34,
+      "type": "tactic"
+    },
+    {
+      "source": "R002",
+      "target": "L003",
+      "weight": 0.27,
+      "type": "tactic"
+    },
+    {
+      "source": "R002",
+      "target": "J005",
+      "weight": 0.32,
+      "type": "tactic"
+    },
+    {
+      "source": "R002",
+      "target": "C007",
+      "weight": 0.32,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "R008",
+      "weight": 0.39,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "R008",
+      "weight": 0.12,
+      "type": "tactic"
+    },
+    {
+      "source": "R002",
+      "target": "C010",
+      "weight": 0.59,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "R011",
+      "weight": 0.5,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "J012",
+      "weight": 0.42,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "J013",
+      "weight": 0.55,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "J013",
+      "weight": 0.27,
+      "type": "tactic"
+    },
+    {
+      "source": "R002",
+      "target": "J014",
+      "weight": 0.45,
+      "type": "platform"
+    },
+    {
+      "source": "R002",
+      "target": "J014",
+      "weight": 0.3,
+      "type": "tactic"
+    },
+    {
+      "source": "L003",
+      "target": "C006",
+      "weight": 0.45,
+      "type": "platform"
+    },
+    {
+      "source": "L003",
+      "target": "C006",
+      "weight": 0.28,
+      "type": "tactic"
+    },
+    {
+      "source": "L003",
+      "target": "R008",
+      "weight": 0.39,
+      "type": "platform"
+    },
+    {
+      "source": "L003",
+      "target": "R009",
+      "weight": 0.52,
+      "type": "platform"
+    },
+    {
+      "source": "L003",
+      "target": "R011",
+      "weight": 0.58,
+      "type": "platform"
+    },
+    {
+      "source": "L003",
+      "target": "R011",
+      "weight": 0.13,
+      "type": "tactic"
+    },
+    {
+      "source": "L003",
+      "target": "J012",
+      "weight": 0.18,
+      "type": "tactic"
+    },
+    {
+      "source": "L003",
+      "target": "J013",
+      "weight": 0.36,
+      "type": "tactic"
+    },
+    {
+      "source": "L003",
+      "target": "J014",
+      "weight": 0.26,
+      "type": "tactic"
+    },
+    {
+      "source": "L003",
+      "target": "C015",
+      "weight": 0.51,
+      "type": "platform"
+    },
+    {
+      "source": "L003",
+      "target": "C015",
+      "weight": 0.26,
+      "type": "tactic"
+    },
+    {
+      "source": "J004",
+      "target": "J005",
+      "weight": 0.44,
+      "type": "platform"
+    },
+    {
+      "source": "J004",
+      "target": "J005",
+      "weight": 0.18,
+      "type": "tactic"
+    },
+    {
+      "source": "J004",
+      "target": "R008",
+      "weight": 0.24,
+      "type": "tactic"
+    },
+    {
+      "source": "J004",
+      "target": "R009",
+      "weight": 0.19,
+      "type": "tactic"
+    },
+    {
+      "source": "J004",
+      "target": "J012",
+      "weight": 0.31,
+      "type": "platform"
+    },
+    {
+      "source": "J004",
+      "target": "C015",
+      "weight": 0.32,
+      "type": "platform"
+    },
+    {
+      "source": "J005",
+      "target": "C007",
+      "weight": 0.22,
+      "type": "tactic"
+    },
+    {
+      "source": "J005",
+      "target": "J012",
+      "weight": 0.51,
+      "type": "platform"
+    },
+    {
+      "source": "J005",
+      "target": "J013",
+      "weight": 0.23,
+      "type": "tactic"
+    },
+    {
+      "source": "J005",
+      "target": "J014",
+      "weight": 0.39,
+      "type": "tactic"
+    },
+    {
+      "source": "J005",
+      "target": "C015",
+      "weight": 0.58,
+      "type": "platform"
+    },
+    {
+      "source": "C006",
+      "target": "C007",
+      "weight": 0.39,
+      "type": "platform"
+    },
+    {
+      "source": "C006",
+      "target": "R008",
+      "weight": 0.53,
+      "type": "platform"
+    },
+    {
+      "source": "C006",
+      "target": "R008",
+      "weight": 0.36,
+      "type": "tactic"
+    },
+    {
+      "source": "C006",
+      "target": "R009",
+      "weight": 0.35,
+      "type": "platform"
+    },
+    {
+      "source": "C006",
+      "target": "R009",
+      "weight": 0.2,
+      "type": "tactic"
+    },
+    {
+      "source": "C006",
+      "target": "J013",
+      "weight": 0.12,
+      "type": "tactic"
+    },
+    {
+      "source": "C006",
+      "target": "J014",
+      "weight": 0.53,
+      "type": "platform"
+    },
+    {
+      "source": "C006",
+      "target": "J014",
+      "weight": 0.32,
+      "type": "tactic"
+    },
+    {
+      "source": "C006",
+      "target": "C015",
+      "weight": 0.58,
+      "type": "platform"
+    },
+    {
+      "source": "C006",
+      "target": "C015",
+      "weight": 0.23,
+      "type": "tactic"
+    },
+    {
+      "source": "C007",
+      "target": "R008",
+      "weight": 0.58,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "R008",
+      "weight": 0.15,
+      "type": "tactic"
+    },
+    {
+      "source": "C007",
+      "target": "R009",
+      "weight": 0.12,
+      "type": "tactic"
+    },
+    {
+      "source": "C007",
+      "target": "C010",
+      "weight": 0.43,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "R011",
+      "weight": 0.46,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "J012",
+      "weight": 0.4,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "J013",
+      "weight": 0.53,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "J014",
+      "weight": 0.36,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "J014",
+      "weight": 0.29,
+      "type": "tactic"
+    },
+    {
+      "source": "C007",
+      "target": "C015",
+      "weight": 0.3,
+      "type": "platform"
+    },
+    {
+      "source": "C007",
+      "target": "C015",
+      "weight": 0.19,
+      "type": "tactic"
+    },
+    {
+      "source": "R008",
+      "target": "R009",
+      "weight": 0.47,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "R009",
+      "weight": 0.17,
+      "type": "tactic"
+    },
+    {
+      "source": "R008",
+      "target": "C010",
+      "weight": 0.51,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "R011",
+      "weight": 0.49,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "R011",
+      "weight": 0.28,
+      "type": "tactic"
+    },
+    {
+      "source": "R008",
+      "target": "J012",
+      "weight": 0.42,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "J013",
+      "weight": 0.44,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "J014",
+      "weight": 0.34,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "J014",
+      "weight": 0.28,
+      "type": "tactic"
+    },
+    {
+      "source": "R008",
+      "target": "C015",
+      "weight": 0.4,
+      "type": "platform"
+    },
+    {
+      "source": "R008",
+      "target": "C015",
+      "weight": 0.13,
+      "type": "tactic"
+    },
+    {
+      "source": "R009",
+      "target": "C010",
+      "weight": 0.22,
+      "type": "tactic"
+    },
+    {
+      "source": "R009",
+      "target": "R011",
+      "weight": 0.41,
+      "type": "platform"
+    },
+    {
+      "source": "R009",
+      "target": "J013",
+      "weight": 0.11,
+      "type": "tactic"
+    },
+    {
+      "source": "R009",
+      "target": "C015",
+      "weight": 0.47,
+      "type": "platform"
+    },
+    {
+      "source": "C010",
+      "target": "R011",
+      "weight": 0.37,
+      "type": "platform"
+    },
+    {
+      "source": "C010",
+      "target": "J012",
+      "weight": 0.33,
+      "type": "platform"
+    },
+    {
+      "source": "C010",
+      "target": "J012",
+      "weight": 0.18,
+      "type": "tactic"
+    },
+    {
+      "source": "C010",
+      "target": "J013",
+      "weight": 0.56,
+      "type": "platform"
+    },
+    {
+      "source": "C010",
+      "target": "J013",
+      "weight": 0.29,
+      "type": "tactic"
+    },
+    {
+      "source": "C010",
+      "target": "J014",
+      "weight": 0.48,
+      "type": "platform"
+    },
+    {
+      "source": "C010",
+      "target": "C015",
+      "weight": 0.39,
+      "type": "tactic"
+    },
+    {
+      "source": "R011",
+      "target": "J012",
+      "weight": 0.35,
+      "type": "platform"
+    },
+    {
+      "source": "R011",
+      "target": "J013",
+      "weight": 0.3,
+      "type": "platform"
+    },
+    {
+      "source": "R011",
+      "target": "J014",
+      "weight": 0.53,
+      "type": "platform"
+    },
+    {
+      "source": "R011",
+      "target": "C015",
+      "weight": 0.55,
+      "type": "platform"
+    },
+    {
+      "source": "R011",
+      "target": "C015",
+      "weight": 0.17,
+      "type": "tactic"
+    },
+    {
+      "source": "J012",
+      "target": "J013",
+      "weight": 0.36,
+      "type": "platform"
+    },
+    {
+      "source": "J012",
+      "target": "J014",
+      "weight": 0.54,
+      "type": "platform"
+    },
+    {
+      "source": "J012",
+      "target": "C015",
+      "weight": 0.38,
+      "type": "platform"
+    },
+    {
+      "source": "J013",
+      "target": "J014",
+      "weight": 0.41,
+      "type": "platform"
+    },
+    {
+      "source": "J013",
+      "target": "J014",
+      "weight": 0.16,
+      "type": "tactic"
+    },
+    {
+      "source": "J013",
+      "target": "C015",
+      "weight": 0.35,
+      "type": "tactic"
+    }
+  ]
+}

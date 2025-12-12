@@ -1,0 +1,107 @@
+{
+  "R001": {
+    "name": "Recruiter Alpha",
+    "traits": {
+      "tone": "Professional, Urgent",
+      "emoji_rate": "low",
+      "script_score": 0.85,
+      "avg_message_length": 62,
+      "common_phrases": ["job opportunity", "high salary", "work from home", "registration fee"],
+      "tactics": ["Authority impersonation", "Time pressure", "Upfront payment request"],
+      "platform": ["LinkedIn", "WhatsApp"]
+    },
+    "active_hours": [9, 10, 11, 12, 13, 14, 15],
+    "risk_score": 85,
+    "archetype": "Job Scam",
+    "color": "#3b82f6",
+    "crew_id": "CREW_A",
+    "first_seen": "2024-11-15",
+    "last_seen": "2024-12-08",
+    "success_rate": 23,
+    "conversations": 34
+  },
+  "L002": {
+    "name": "Romance Operator",
+    "traits": {
+      "tone": "Emotional, Intimate",
+      "emoji_rate": "high",
+      "script_score": 0.92,
+      "avg_message_length": 45,
+      "common_phrases": ["I miss you", "trust me", "my love", "emergency", "Western Union"],
+      "tactics": ["Emotional manipulation", "Fake identity", "Gradual money requests", "Crisis scenarios"],
+      "platform": ["WhatsApp", "Messenger", "Dating Apps"]
+    },
+    "active_hours": [23, 0, 1, 2, 3],
+    "risk_score": 92,
+    "archetype": "Romance Scam",
+    "color": "#ec4899",
+    "crew_id": "CREW_B",
+    "first_seen": "2024-10-22",
+    "last_seen": "2024-12-09",
+    "success_rate": 41,
+    "conversations": 28
+  },
+  "I005": {
+    "name": "Authority Impersonator",
+    "traits": {
+      "tone": "Formal, Threatening",
+      "emoji_rate": "low",
+      "script_score": 0.88,
+      "avg_message_length": 78,
+      "common_phrases": ["verify account", "suspended", "click link", "legal action", "confirm identity"],
+      "tactics": ["Fear tactics", "Fake urgency", "Link phishing", "Official impersonation"],
+      "platform": ["SMS", "Email", "WhatsApp"]
+    },
+    "active_hours": [12, 13, 14, 15, 16, 17, 18, 19, 20],
+    "risk_score": 88,
+    "archetype": "Phishing / Impersonation",
+    "color": "#8b5cf6",
+    "crew_id": "CREW_C",
+    "first_seen": "2024-11-01",
+    "last_seen": "2024-12-07",
+    "success_rate": 18,
+    "conversations": 45
+  },
+  "C007": {
+    "name": "Crypto Influencer",
+    "traits": {
+      "tone": "Expert, Confident",
+      "emoji_rate": "medium",
+      "script_score": 0.90,
+      "avg_message_length": 95,
+      "common_phrases": ["guaranteed returns", "exclusive signal", "minimum investment", "100x gains"],
+      "tactics": ["FOMO creation", "Fake testimonials", "Upfront investment", "Ponzi structure"],
+      "platform": ["Telegram", "Discord", "Instagram"]
+    },
+    "active_hours": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+    "risk_score": 90,
+    "archetype": "Investment Scam",
+    "color": "#f59e0b",
+    "crew_id": "CREW_A",
+    "first_seen": "2024-09-10",
+    "last_seen": "2024-12-09",
+    "success_rate": 35,
+    "conversations": 31
+  },
+  "S003": {
+    "name": "Marketplace Seller",
+    "traits": {
+      "tone": "Friendly, Pushy",
+      "emoji_rate": "medium",
+      "script_score": 0.75,
+      "avg_message_length": 38,
+      "common_phrases": ["limited stock", "pay upfront", "no refunds", "cash only"],
+      "tactics": ["Fake listings", "Upfront payment", "No escrow", "Ghost after payment"],
+      "platform": ["Facebook Marketplace", "Instagram", "WhatsApp"]
+    },
+    "active_hours": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+    "risk_score": 75,
+    "archetype": "Product Scam",
+    "color": "#10b981",
+    "first_seen": "2024-11-20",
+    "last_seen": "2024-12-08",
+    "success_rate": 28,
+    "conversations": 52
+  }
+}
+

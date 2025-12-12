@@ -1,0 +1,212 @@
+[
+  {
+    "persona_id": "R001",
+    "name": "Clinical Broker",
+    "risk": 65,
+    "keywords": [
+      "face",
+      "site",
+      "ago",
+      "dog",
+      "election"
+    ],
+    "description": "Charity Scam actor targeting victims via Email.",
+    "archetype": "Charity Scam"
+  },
+  {
+    "persona_id": "R002",
+    "name": "Sports Broker",
+    "risk": 67,
+    "keywords": [
+      "fall",
+      "discussion",
+      "perform",
+      "kind",
+      "list"
+    ],
+    "description": "Romance Scam actor targeting victims via WhatsApp.",
+    "archetype": "Romance Scam"
+  },
+  {
+    "persona_id": "L003",
+    "name": "Legal Operator",
+    "risk": 64,
+    "keywords": [
+      "husband",
+      "blue",
+      "best",
+      "bill",
+      "her"
+    ],
+    "description": "Charity Scam actor targeting victims via Email.",
+    "archetype": "Charity Scam"
+  },
+  {
+    "persona_id": "J004",
+    "name": "Water Agent",
+    "risk": 95,
+    "keywords": [
+      "high",
+      "dark",
+      "training",
+      "value",
+      "participant"
+    ],
+    "description": "Job Scam actor targeting victims via Email.",
+    "archetype": "Job Scam"
+  },
+  {
+    "persona_id": "J005",
+    "name": "Health Handler",
+    "risk": 90,
+    "keywords": [
+      "long",
+      "his",
+      "they",
+      "commercial",
+      "prove"
+    ],
+    "description": "Job Scam actor targeting victims via Instagram.",
+    "archetype": "Job Scam"
+  },
+  {
+    "persona_id": "C006",
+    "name": "Dramatherapist Agent",
+    "risk": 62,
+    "keywords": [
+      "shoulder",
+      "maintain",
+      "none",
+      "common",
+      "election"
+    ],
+    "description": "Charity Scam actor targeting victims via SMS.",
+    "archetype": "Charity Scam"
+  },
+  {
+    "persona_id": "C007",
+    "name": "Banker Agent",
+    "risk": 77,
+    "keywords": [
+      "drop",
+      "four",
+      "support",
+      "almost",
+      "term"
+    ],
+    "description": "Crypto/Investment Scam actor targeting victims via Email.",
+    "archetype": "Crypto/Investment Scam"
+  },
+  {
+    "persona_id": "R008",
+    "name": "Engineer, Alpha",
+    "risk": 63,
+    "keywords": [
+      "reality",
+      "individual",
+      "money",
+      "who",
+      "usually"
+    ],
+    "description": "Romance Scam actor targeting victims via Instagram.",
+    "archetype": "Romance Scam"
+  },
+  {
+    "persona_id": "R009",
+    "name": "Television Agent",
+    "risk": 78,
+    "keywords": [
+      "high",
+      "certainly",
+      "inside",
+      "discuss",
+      "Mr"
+    ],
+    "description": "Romance Scam actor targeting victims via Telegram.",
+    "archetype": "Romance Scam"
+  },
+  {
+    "persona_id": "C010",
+    "name": "Therapist, Agent",
+    "risk": 92,
+    "keywords": [
+      "attack",
+      "image",
+      "management",
+      "pick",
+      "I"
+    ],
+    "description": "Crypto/Investment Scam actor targeting victims via Telegram.",
+    "archetype": "Crypto/Investment Scam"
+  },
+  {
+    "persona_id": "R011",
+    "name": "Librarian, Alpha",
+    "risk": 57,
+    "keywords": [
+      "brother",
+      "learn",
+      "long",
+      "finally",
+      "coach"
+    ],
+    "description": "Loan/Financial Aid Scam actor targeting victims via LinkedIn.",
+    "archetype": "Loan/Financial Aid Scam"
+  },
+  {
+    "persona_id": "J012",
+    "name": "Hydrogeologist Agent",
+    "risk": 86,
+    "keywords": [
+      "decide",
+      "politics",
+      "movement",
+      "thought",
+      "purpose"
+    ],
+    "description": "Job Scam actor targeting victims via Facebook.",
+    "archetype": "Job Scam"
+  },
+  {
+    "persona_id": "J013",
+    "name": "Advertising Broker",
+    "risk": 68,
+    "keywords": [
+      "brother",
+      "woman",
+      "theory",
+      "him",
+      "unit"
+    ],
+    "description": "Charity Scam actor targeting victims via Email.",
+    "archetype": "Charity Scam"
+  },
+  {
+    "persona_id": "J014",
+    "name": "Site Agent",
+    "risk": 52,
+    "keywords": [
+      "receive",
+      "career",
+      "car",
+      "may",
+      "space"
+    ],
+    "description": "Job Scam actor targeting victims via Instagram.",
+    "archetype": "Job Scam"
+  },
+  {
+    "persona_id": "C015",
+    "name": "Engineer, Handler",
+    "risk": 67,
+    "keywords": [
+      "sell",
+      "forget",
+      "rate",
+      "inside",
+      "remain"
+    ],
+    "description": "Charity Scam actor targeting victims via Telegram.",
+    "archetype": "Charity Scam"
+  }
+]
