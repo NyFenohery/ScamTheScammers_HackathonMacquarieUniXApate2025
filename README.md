@@ -179,6 +179,9 @@ backend/
 
 **Team 25**
 Strategic Foresight and Lead Enrichment: Scammer Persona Profiling
+Members: 
+- https://github.com/NyFenohery
+- https://github.com/mahalligator
 
 ---
 
